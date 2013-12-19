@@ -1,0 +1,4 @@
+phrase rule formate
+prob    C -> ephase | cphrase
+
+vocabulay 1 NULL

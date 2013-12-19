@@ -1,0 +1,88 @@
+`
+
+abstract_feature.h  #the feature function interface file
+aligner.cpp          #after we get the viterbi parse tree, we use the aligner to get the alignment of bilingual sentence.
+aligner.h
+align_features.cpp
+align_features.h
+alignment.cpp   # the data structure of alignment
+alignment.h
+arithmetic_ansi.h       # the open source head file of liblbfgs
+arithmetic_sse_double.h # the open source head file of liblbfgs
+arithmetic_sse_float.h  # the open source head file of liblbfgs
+basic_feature.cpp       # the basic feature for the non-terminal rule
+basic_feature.h
+berkeley_lbfgs.cpp      # our c++ version of berkeley lbfgs
+berkeley_lbfgs.h
+cell_elem.h
+config.cpp              # the config class of our system.
+configFile.cpp          # the config file class 
+configFile.h
+config.h
+corpus.cpp              # the corpus class
+corpus.h
+dice_feature.cpp        # dice  feature  , not used in our system.
+dice_feature.h
+dict_feature.cpp        # dictionary feature
+dict_feature.h
+differentiableFunction.cpp  # C++ version of berkeley lbfgs
+differentiableFunction.h
+distortion_feature.cpp      # not use in current system.
+distortion_feature.h
+extractor.cpp               # used for extract phrase pair from the alignment.
+extractor.h
+features_manager.cpp        # used for managing all the features.
+features_manager.h
+fertility_feature.cpp       # not use in current system.
+fertility_feature.h
+globals.h
+itg
+itg2.vcxproj
+itg2.vcxproj.filters
+lbfgs.h
+liblbfgs.a                  # the liblbfgs lib
+line_searcher.cpp           # c++ version of berkeley lbfgs
+line_searcher.h             # c++ version of berkeley lbfgs
+loger.cpp                   # our simple log class
+loger.h
+main.cpp                    # our main file, the entry of the system.
+makefile                    # the makefile
+m-step2.cpp                 # used for berleley lbfgs, it's not used now.  
+m-step2.h        
+m-step.cpp                  # used for compute the value  and the gradient of the objective function. 
+m-step.h
+mymap.h
+pair.cc
+parser.cpp                  # the viterbi parser of the ITG
+parser.h
+phrase_pair.h                  
+phrase_table.h              # the phrase_table, the physical data structure of the grammar.
+pos_feature.cpp             # the part_of_speech feature
+pos_feature.h
+prior_knowledge.cpp         # the prior knowledge that are used in the system.
+prior_knowledge.h
+pruning.cpp                 # the class for pruning 
+pruning.h
+readme.txt
+rule.cpp                    # the itg rule class
+rule.h
+scfg.cpp                    # the grammar class
+scfg.h
+senpair.cpp                 # the bilingual sentence pair
+senpair.h
+symbols.cpp                 # the symbols that are used in our grammar. It's the map between the symbol index and the symbol itself.
+symbols.h
+table_cell.cc               # the table cell class ,use for E-step. 
+table_cell.h
+test.cpp
+test_extractor.cpp
+test.txt
+tools.cpp               # some common used functions 
+tools.h     
+trainer.cpp             # the trainer of the model.             
+trainer.h
+train_param.h          
+tran_feature.cpp        # the translation feature, it is not used now.
+tran_feature.h
+vector_tools.cpp        # the vector tools for c++ version of berkeley lbfgs.
+vector_tools.h
